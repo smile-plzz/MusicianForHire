@@ -170,7 +170,8 @@ app.put('/api/talent/:id/availability', (req, res) => {
 });
 
 app.post('/api/bookings', (req, res) => {
-  const bookingDetails = { id: nextBookingId++, status: 'pending', ...req.body };
+  const { talentId, talentName, eventDate, sessionType, duration, clientId, clientName, clientType, roleHiringFor } = req.body;
+  const bookingDetails = { id: nextBookingId++, status: 'pending', talentId, talentName, eventDate, sessionType, duration, clientId, clientName, clientType, roleHiringFor };
   bookings.push(bookingDetails);
   console.log('New booking request:', bookingDetails);
   res.status(201).json({ message: 'Booking request received', bookingDetails });
