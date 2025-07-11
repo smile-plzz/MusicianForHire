@@ -4,7 +4,7 @@
 Musician for Hire is a dynamic social platform and SaaS designed to foster connections within the music and arts community. It enables musicians and artists to showcase their talent and collaborate, while providing a streamlined booking experience for various clients, including individual organizers, event planners, and bands seeking freelance artists. The platform supports live performances, recording sessions, creative services, and integrated music distribution.
 
 ## Features
-- **Talent Listing & Filtering:** Browse and filter musicians/artists by genre, instrument, location, service type, and user type (individual/band).
+- **Talent Listing & Filtering:** Browse and filter musicians/artists by genre, instrument, location, service type, user type (individual/band), band size, and instrument needed.
 - **Talent Detail Pages:** View detailed profiles, including bios, rates, availability (via calendar), and media samples.
 - **Booking System:** Clients (individuals, organizers, bands) can submit booking requests for talent. Talent can manage (accept/decline) bookings.
 - **Review System:** Clients can submit ratings and comments for talent.
