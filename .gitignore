@@ -1,0 +1,25 @@
+# Node modules
+node_modules
+
+# Log files
+*.log
+
+# dotenv environment variables file
+.env
+
+# npm package manager cache
+.npm
+
+# production build
+build
+
+# misc
+.DS_Store
+.vscode
+
+# React-specific ignores
+/frontend/build
+/frontend/node_modules
+
+# Backend-specific ignores
+/backend/node_modules
